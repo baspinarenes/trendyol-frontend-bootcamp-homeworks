@@ -1,4 +1,4 @@
-# React Rick and Morty App
+# Week 3 Homework: React Rick and Morty App
 
 This project includes listing, filtering and showing details of Rick and Morty data fetched from [API](https://rickandmortyapi.com/). It is a **React** project and built with **create-react-app**. While coding, **ESLint** and **Prettier** were used together with the **AirBnb** style guide. The tests were done with **jest** and **testing-library**. [Demo](https://enesbaspinar.me/rick-and-morty).
 
