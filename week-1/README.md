@@ -1,6 +1,6 @@
 # Hafta 1 Ödevi: Trendyol Landing Page
 
-![](/assets/images/pages.png)
+![](./assets/images/pages.png)
 
 Trendyol Front-End Bootcamp'inin ilk ödevinde; [Figma Design](https://www.figma.com/file/IwnhPC5WBglAFGc0MJ6wXj/Trendyol-Front-End-Bootcamp?node-id=0%3A1) üzerinden verilen tasarım ile birlikte Trendyol'un anasayfası ve ürün sayfası, HTML ve CSS kullanılarak tasarlanmıştır. Kodlama sürecinde 3 ve 4 kişilik ekipler ile "pair programming" yapılarak ilerlenmiştir.
 
@@ -35,5 +35,5 @@ Trendyol Front-End Bootcamp'inin ilk ödevinde; [Figma Design](https://www.figma
 
 ## Sayfa Resimleri
 
-![](/assets/images/home-page.png)
-![](/assets/images/product-page.png)
+![](./assets/images/home-page.png)
+![](./assets/images/product-page.png)
