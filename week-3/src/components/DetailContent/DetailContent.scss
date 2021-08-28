@@ -1,0 +1,61 @@
+#detail-content {
+  #info-list {
+    align-items: center;
+    min-width: 200px;
+    width: 100%;
+
+    span {
+      line-height: 2.3rem;
+    }
+
+    li {
+      gap: 10px;
+    }
+
+    @media (min-width: 720px) {
+      li {
+        gap: 7px;
+      }
+    }
+  
+    @media (min-width: 1150px) {
+      border: 0;
+      align-items: flex-start;
+      width: fit-content;
+      min-height: 50%;
+      border-right: 2px solid rgba(229, 231, 235);
+      padding-right: 25px;
+      
+      li {
+        flex-direction: column;
+        min-width: 45%;
+      }
+    }
+  }
+
+  @media (min-width: 1150px) {
+    flex-direction: row;
+    padding-left: 680px;
+    padding-right: 20px;
+    min-height: 50%;
+  }
+}
+
+.episode-link span {
+  font-size: 1.2rem;
+
+  &:hover {
+    color:gray;
+  }
+
+  @media (min-width: 720px) {
+    font-size: 1.5rem;
+  }
+}
+
+.character-link {
+  opacity:0.8;
+  &:hover {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,80 @@
+#item-list {
+  .custom-scrollbar {
+    &::-webkit-scrollbar {
+      height: 10px;
+      width: 10px;
+    }
+  
+    &::-webkit-scrollbar-track {
+      background: white;
+      border-radius: 10px;
+      box-shadow: inset 10px 10px 10px 0px #F0F0F0;
+    }
+  
+    &::-webkit-scrollbar-thumb {
+      background: linear-gradient(170deg, var(--gradient-blue) 27%, var(--gradient-green) 64%);
+      border-radius: 30px;
+    }
+  }
+
+  .card-container {
+    height: 300px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .card-bg {
+    opacity: 1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .card-content {
+    position: relative;
+    background-color: rgba(255, 255, 255 , 0.7);
+    white-space: pre-wrap;
+    word-break: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+         hyphens: auto;
+
+    li {
+      max-width: 140px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+
+      &:nth-of-type(n+2):before {
+        content: "•";
+        padding: 0 5px;
+    }
+    }
+  }
+}
+
+.card-link {
+  img {
+    transform: scale(1);
+    transition: transform 700ms;
+  }
+  &:hover {
+    img {
+      transform: scale(1.2);
+      transition: transform 700ms;
+    }
+  }
+}
+
+
+#scrollableDiv {
+  @media (max-width: 720px) {
+    height: 440px;
+    padding-right: 10px;
+  }
+}
