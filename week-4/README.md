@@ -1,4 +1,4 @@
-# starwars
+# Week 4 Homework: Star Wars
 
 ## Project setup
 ```
