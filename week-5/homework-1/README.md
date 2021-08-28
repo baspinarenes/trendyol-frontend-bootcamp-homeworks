@@ -1,4 +1,4 @@
-# Testing with Jest - Trendyol Frontend Bootcamp Week 5
+# Week 5 Homework I: Testing with Jest
 
 ## Project Details
 
