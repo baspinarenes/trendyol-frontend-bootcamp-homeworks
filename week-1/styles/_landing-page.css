@@ -1,0 +1,186 @@
+/*
+  ========================================
+  Story Section
+  ========================================
+*/
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.story-text {
+  margin-top: 5px;
+  display: inline-block;
+  width: 75px;
+  font-size: 14px;
+  line-height: 14px;
+  color: var(--title-link);
+  font-weight: 600;
+  height: 42px;
+  transition: color 300ms ease-in-out;
+}
+
+.story a img {
+  border-radius: 50%;
+  width: 66px;
+  border: 1px solid var(--story-border);
+  transition: border 300ms ease-in-out;
+}
+
+.story:hover img {
+  border: 1px solid var(--clr-orange);
+}
+
+.story:hover .story-text {
+  color: var(--clr-orange);
+}
+
+/*
+  ========================================
+  Component Banner Section
+  ========================================
+*/
+
+/* Component */
+
+.component-banner-container {
+  display: flex;
+  gap: 20px;
+}
+
+.components {
+  width: 750px;
+}
+
+.component {
+  border-radius: 6px;
+  margin-bottom: 15px;
+  overflow: hidden;
+  box-shadow: 0 0 7px var(--shadow-light);
+}
+
+.component-img {
+  width: 100%;
+  height: 217px;
+  display: block;
+  object-fit: fill;
+}
+
+.component-description {
+  display: flex;
+  align-items: center;
+  background-color: var(--clr-black);
+  transition: background-color 300ms ease-in-out;
+}
+
+.component-text,
+.hover-text {
+  display: inline-block;
+  padding: 0 17px;
+  color: var(--clr-white);
+  width: 50%;
+  font-size: 14px;
+  line-height: 38px;
+  font-weight: 600;
+}
+
+.component-text {
+  text-transform: uppercase;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.hover-text {
+  text-align: right;
+  opacity: 0;
+  transition: opacity 300ms ease-in-out;
+}
+
+.hover-text svg {
+  margin-left: 7px;
+  line-height: 30px;
+}
+
+.component:hover .hover-text {
+  opacity: 1;
+}
+
+.component:hover .component-description {
+  background-color: var(--clr-orange);
+}
+
+.component:hover {
+  box-shadow: 0 0 0 1pt var(--clr-orange);
+}
+
+.component:hover img {
+  transform: scale(1.015);
+  transition: transform 700ms ease-in-out;
+}
+
+/* Banners */
+
+.banners {
+  width: 310px;
+}
+
+.banner {
+  margin-bottom: 15px;
+}
+
+.banner a {
+  position: relative;
+  border-radius: 6px;
+  display: block;
+  height: 304px;
+  background-image: var(--banner-img);
+}
+
+.banner-img {
+  position: absolute;
+  top: 81px;
+  left: 28px;
+  z-index: var(--banner-layer);
+  width: 140px;
+}
+
+.banner-info {
+  color: var(--clr-white);
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 110px;
+  left: 187px;
+}
+
+.banner-info span {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 120px;
+  text-align: center;
+}
+
+.banner-info span:nth-child(1) {
+  font-size: 17px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.banner-info span:nth-child(3) {
+  font-size: 16px;
+  line-height: 15px;
+  text-decoration: line-through;
+}
+
+.banner-info span:nth-child(4) {
+  font-size: 25px;
+  line-height: 20px;
+  display: inline-block;
+  margin: 5px 0;
+  font-weight: bold;
+}

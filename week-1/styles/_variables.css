@@ -1,0 +1,66 @@
+/*
+  ========================================
+  1- Fonts
+  ========================================
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+
+/*
+  ========================================
+  2- Variables
+  ========================================
+*/
+
+:root {
+    /* Colors */
+    --clr-orange: #F27A1A;
+    --clr-gray-5: #333;
+    --clr-gray-4: #666;
+    --clr-gray-3: #888;
+    --clr-gray-2: #999;
+    --clr-gray-1: #E6E6E6;
+    --clr-gray-0: #f3f3f3;
+    --clr-light-blue: rgb(30,223,242);
+    --clr-blue: rgb(9,191,223);
+    --clr-white: white;
+    --clr-opacity-white: rgba(255, 255, 255, 0.2);
+    --clr-black: #000;
+    --clr-opacity-black: rgba(0, 0, 0, 0.3);
+    
+    /* Shadows */
+    --shadow-light: #d3d3d3;
+    --shadow-medium: rgba(0, 0, 0, 0.07);
+    --shadow-dark: rgba(0, 0, 0, 0.25);
+
+    /* Element Variable */
+    --text-color: var(--clr-black);
+    --header-link: var(--clr-gray-2);
+    --header-link-hover: var(--clr-gray-4);
+    --title-link: var(--clr-gray-5);
+    --sub-link: var(--clr-gray-4);
+    --border: var(--clr-orange);
+    --placeholder: var(--clr-gray-5);
+    --account-item: var(--clr-gray-4);
+    --account-item-hover: var(--clr-orange);
+    --profile-container: var(--clr-gray-1);
+    --header-divider: var(--clr-gray-1);
+    --blackout: var(--clr-opacity-black);
+    --story-border: var(--clr-gray-1);
+    --filter-divider: var(--clr-gray-0);
+    --filter-item-hover: var(--clr-gray-2);
+    --thumb: var(--clr-gray-3);
+    --input-background: var(--clr-gray-0);
+
+    /* Banner Image */
+    --banner-img: url(https://cdn.dsmcdn.com//mrktng/crm/rightBnr/jun/28/imgs/yaz.png);
+
+    /* Z-Index */
+    --banner-layer: -1;
+    --blackout-layer: 5;
+    --header-layer: 10;
+    --history-layer: 15;
+    --account-layer: 20;
+    --wish-item-icon:7;
+}
